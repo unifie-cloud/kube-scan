@@ -1,0 +1,13 @@
+hardcodedNameSpace: kube-scan
+showVerionsTab: false
+showEnvVarsTab: false
+allowAutoApplyLimits: false
+name: Kube-scan
+title: Kube-scan
+logo: AppstoreAddOutlined
+tags:
+  - kube-scan
+description: Kube-scan
+oneDeploymentPerCluster: true
+notAllowRemoveNamespace: true
+autoAddEnvVarsToDeployments: false

@@ -1,0 +1,13 @@
+name: Kube-scan
+rules: []
+routes:
+  - host: '{{ .deployment.domain }}'
+    http:
+      paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: kube-scan-ui
+              port:
+                number: 80
